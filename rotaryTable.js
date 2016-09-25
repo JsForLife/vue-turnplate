@@ -4,18 +4,6 @@
 define([], function () {
 
     /***
-     * 精确度处理方法
-     * **/
-    var forDight = function(Dight,How){
-
-        var Dight = Math.round (Dight*Math.pow(10,How))/Math.pow(10,How);
-
-        return Dight;
-
-    }
-
-
-    /***
      * 重置转盘到初始位置
      * **/
     var reset = function () {
